@@ -1,0 +1,7 @@
+selection_test,evaluation_test,direction,additional_stations_b,metric,metric_label,earthquake_events,median_candidate_event_value,median_uniform_event_value,median_paired_delta_candidate_minus_uniform,bootstrap_95_ci_low,bootstrap_95_ci_high,events_candidate_better,events_tied,events_candidate_worse,fraction_events_candidate_better
+SKS03,SKS02,SKS03→SKS02,5,cluster_p90_nrmse,p90 profile NRMSE,6,0.1361274285877298,0.1361274285877298,0.0,0.0,0.0,0,6,0,0.0
+SKS03,SKS02,SKS03→SKS02,5,cluster_p90_peak_load_relative_error,p90 peak-load relative error,6,0.0,0.0,0.0,0.0,0.0,0,6,0,0.0
+SKS03,SKS02,SKS03→SKS02,5,cluster_p90_peak_depth_error_z_over_l,"p90 discrete peak-depth error, z/L",6,0.0,0.0,0.0,0.0,0.0,0,6,0,0.0
+SKS02,SKS03,SKS02→SKS03,5,cluster_p90_nrmse,p90 profile NRMSE,5,0.03530947878734205,0.0354261224245807,-0.00046636108641719826,-0.013064779702176451,0.024385131150037254,3,0,2,0.6
+SKS02,SKS03,SKS02→SKS03,5,cluster_p90_peak_load_relative_error,p90 peak-load relative error,5,0.043359222089750696,0.0234690106568693,0.015595916490293855,-0.0250350326009876,0.0542919678000206,1,0,4,0.2
+SKS02,SKS03,SKS02→SKS03,5,cluster_p90_peak_depth_error_z_over_l,"p90 discrete peak-depth error, z/L",5,0.14285714285714285,0.07142857142857145,0.0714285714285714,-0.0714285714285714,0.21428571428571425,1,1,3,0.2

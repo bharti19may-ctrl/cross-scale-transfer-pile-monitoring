@@ -1,0 +1,14 @@
+{
+  "input": "prj2828_pile_event_cluster_results.csv",
+  "outputs": [
+    "prj2828_objective_transfer_event_results.csv",
+    "prj2828_objective_transfer_summary.csv",
+    "prj2828_budget_saturation_summary.csv",
+    "Fig_objective_transfer_1200dpi.png",
+    "Fig_objective_transfer.svg"
+  ],
+  "bootstrap_seed": 20260822,
+  "bootstrap_replicates": 10000,
+  "aggregation": "median across repeated piles within each earthquake; bootstrap resampling of earthquakes",
+  "scope_limit": "peak depth is a discrete measured-grid descriptor; no continuous neutral-plane inference"
+}

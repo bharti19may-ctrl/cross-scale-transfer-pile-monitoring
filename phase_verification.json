@@ -1,0 +1,8 @@
+{
+  "result_rows_independently_verified": 13392,
+  "maximum_absolute_numerical_difference": 2.220446049250313e-16,
+  "sample_rows": 122664,
+  "distinct_pile_event_histories": 22,
+  "chronology_and_sample_cap_checks": "passed",
+  "nonfinite_values": 0
+}

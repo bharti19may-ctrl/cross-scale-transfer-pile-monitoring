@@ -1,0 +1,20 @@
+{
+  "analysis_scope": "Frozen SKS02- and SKS03-selected layouts compared with equal-budget uniform placement on independent published profiles.",
+  "primary_field_cases": [
+    "Turrell H-pile post-blast",
+    "Turrell pipe pile post-blast"
+  ],
+  "secondary_field_cases": [
+    "Christchurch 12-m CFA pile post-blast",
+    "Christchurch 14-m CFA pile post-blast"
+  ],
+  "qualified_sensitivity_cases": [
+    "Turrell concrete pile post-blast",
+    "MS09 bored pile, Leg 1, 2500 s after shaking"
+  ],
+  "equivalence_threshold_delta_nrmse": 0.005,
+  "mapping_rule": "Each frozen normalised target depth is mapped to the nearest published measured level; a comparison is omitted if two targets map to the same level.",
+  "reconstruction_rule": "Piecewise-linear interpolation between retained levels, with endpoint persistence outside the retained range, applied consistently to candidate and comparator.",
+  "claim_boundary": "The comparison is an independent profile-reconstruction consistency check. It does not validate field instrumentation, safety, failure probability, installation cost, or a universal layout.",
+  "statistical_boundary": "Published profiles are case studies, not independent population samples; no p-value or population-level confidence interval is reported."
+}

@@ -1,0 +1,12 @@
+{
+  "source": "Lusvardi, C. M. (2020). Blast-Induced Liquefaction and Downdrag Development on a Micropile Foundation.",
+  "url": "https://scholarsarchive.byu.edu/etd/8769/",
+  "downloaded_filename": "Blast-Induced Liquefaction and Downdrag Development on a Micropil.pdf",
+  "sha256": "7880c43969422193320c3f79f249bbf64de6e036b340d2cd4a77c5893728570c",
+  "included_as_measured_validation": false,
+  "measured_segment": "Strain-derived load retained only to 6.2 m and 15 min after blasting; printed pp. 148\u2013149.",
+  "acquisition_limits": "Approximately five-minute post-blast interruption, subsequent strain-baseline adjustment and drift exclusions.",
+  "deeper_profile": "Final deeper profile includes CAPWAP side resistance, toe-load assumption and settlement-based neutral-plane estimates; printed pp. 154\u2013155, Fig. 7-13.",
+  "reason": "No complete uninterrupted synchronised measured full-depth dynamic profile is supplied in the downloaded thesis.",
+  "use": "Source qualification and physical context only. No estimated deep ordinates digitised as measured truth."
+}

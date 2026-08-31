@@ -1,0 +1,25 @@
+training,sensor_count,placement,normalised_depths
+PRJ-4809 external transfer,2,uniform,0.50;1.00
+PRJ-4809 external transfer,2,D-optimal,0.79;1.00
+PRJ-4809 external transfer,2,empirical-mean,0.45;0.85
+PRJ-4809 external transfer,2,empirical-p90,0.80;1.00
+PRJ-4809 external transfer,3,uniform,0.33;0.67;1.00
+PRJ-4809 external transfer,3,D-optimal,0.57;0.83;1.00
+PRJ-4809 external transfer,3,empirical-mean,0.45;0.85;1.00
+PRJ-4809 external transfer,3,empirical-p90,0.40;0.80;1.00
+PRJ-4809 external transfer,4,uniform,0.25;0.50;0.75;1.00
+PRJ-4809 external transfer,4,D-optimal,0.11;0.35;0.85;1.00
+PRJ-4809 external transfer,4,empirical-mean,0.45;0.65;0.85;1.00
+PRJ-4809 external transfer,4,empirical-p90,0.40;0.60;0.80;1.00
+PRJ-4809 external transfer,5,uniform,0.20;0.40;0.60;0.80;1.00
+PRJ-4809 external transfer,5,D-optimal,0.11;0.54;0.72;0.87;1.00
+PRJ-4809 external transfer,5,empirical-mean,0.25;0.45;0.65;0.85;1.00
+PRJ-4809 external transfer,5,empirical-p90,0.20;0.40;0.60;0.80;1.00
+PRJ-4809 external transfer,6,uniform,0.17;0.33;0.50;0.67;0.83;1.00
+PRJ-4809 external transfer,6,D-optimal,0.11;0.32;0.54;0.72;0.87;1.00
+PRJ-4809 external transfer,6,empirical-mean,0.10;0.25;0.45;0.65;0.85;1.00
+PRJ-4809 external transfer,6,empirical-p90,0.20;0.40;0.60;0.80;0.90;1.00
+PRJ-4809 external transfer,8,uniform,0.12;0.25;0.38;0.50;0.62;0.75;0.88;1.00
+PRJ-4809 external transfer,8,D-optimal,0.11;0.32;0.54;0.71;0.72;0.86;0.87;1.00
+PRJ-4809 external transfer,8,empirical-mean,0.10;0.25;0.45;0.55;0.65;0.75;0.85;1.00
+PRJ-4809 external transfer,8,empirical-p90,0.20;0.40;0.50;0.60;0.65;0.80;0.90;1.00

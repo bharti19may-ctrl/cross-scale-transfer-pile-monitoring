@@ -1,0 +1,30 @@
+{
+  "source_doi": "https://doi.org/10.4121/78720ecb-daf4-4676-b5f4-281e93e4388a",
+  "piles": [
+    "F1",
+    "F2",
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "field_sites": 1,
+  "excluded_pile": "F3: source reports casing-extraction problems; no interpreted force file supplied",
+  "source_processing": "Force inferred from DFOS strain using source stiffness processing; 1-cm grid is linearly interpolated, not independent 1-cm measurements",
+  "source_resolution_m": 0.2,
+  "reference_grids_m": [
+    0.2,
+    0.4
+  ],
+  "stage_rule": "Last complete record within each numbered Step, after 45-s buffers at both ends",
+  "profile_counts": {
+    "F1": 12,
+    "F2": 12,
+    "T1": 15,
+    "T2": 8,
+    "T3": 6
+  },
+  "frozen_selection": "Original and boundary-constrained SKS02/SKS03 layouts; exact source indices divided by seven; no target-response fitting",
+  "uncertainty_unit": "Five piles from one site, with repeated loading stages; descriptive summaries only",
+  "coverage_identity": "NRMSE_candidate^2 - NRMSE_uniform^2 equals signed inside-span plus outside-span contributions before aggregation",
+  "limitations": "Static compression and author-processed reference profiles; not liquefaction validation, raw strain-to-force calibration validation, independent multi-site performance, or hardware validation"
+}

@@ -1,0 +1,12 @@
+{
+  "seed": 20260827,
+  "draws_per_scenario": 2000,
+  "pixel_scenarios": [
+    1,
+    2,
+    4
+  ],
+  "source": "PlotCalibration values in digitize_external_profiles.py; between-figure ranges in external_digitised_profiles.csv",
+  "interpretation": "Assumption-based graphical-resolution stress tests, not confidence intervals or new experimental data",
+  "claims": "Only sign/classification stability under the stated perturbations; no calibrated measurement uncertainty or field success probability"
+}

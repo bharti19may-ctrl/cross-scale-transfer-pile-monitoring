@@ -1,0 +1,62 @@
+{
+  "columns": [
+    "test_code",
+    "event_number",
+    "pile",
+    "smoothed",
+    "eta",
+    "sampling_cap",
+    "phase_code",
+    "time_s",
+    "Q0",
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4",
+    "Q5",
+    "Q6",
+    "Q7"
+  ],
+  "phase_names": [
+    "shaking",
+    "before_decay",
+    "after_decay"
+  ],
+  "test_names": [
+    "SKS02",
+    "SKS03"
+  ],
+  "primary": {
+    "eta": 0.5,
+    "sampling_cap": 120,
+    "smoothed": 1
+  },
+  "sensitivity": {
+    "eta": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "sampling_cap": [
+      120,
+      240
+    ],
+    "smoothed": [
+      0,
+      1
+    ]
+  },
+  "phase_rule": "5-95% cumulative squared input acceleration; first 60-s observed interval below eta times the pressure reference peak",
+  "pressure_proxy": "90th percentile across available non-flat Keller channels after clipping negative ratios to zero and 3-s elapsed-time moving mean; at least 80% channel availability, no missing-value imputation",
+  "peak_window": "from t05 to t95+60 seconds; recovery phases not assigned when peak<0.1",
+  "time_rule": "Preserve original order; omit times not exceeding all previous times at fast/slow overlap; never invent missing response values",
+  "smoothing": "centred elapsed-time moving mean: 6 s for Pile 1 and 3 s otherwise; half-window phase-edge guard",
+  "sampling": "nearest distinct measured times to 120/240 equally spaced targets within each phase; at least 10 samples",
+  "normalisation": "snapshot maximum absolute load, floored at 0.05 MN, identical for candidate and uniform",
+  "independence": "within-pile phase quantiles; paired differences aggregated over piles within each earthquake; only 6 and 5 sequential earthquakes in two experiments",
+  "limits": "Retrospective phase diagnostics, not new experiments, unsmoothed dynamic-peak validation, or complete pore-pressure dissipation identification",
+  "sources": [
+    "https://doi.org/10.17603/DS2-D25M-GG48",
+    "https://doi.org/10.17603/DS2-WJGX-TB78"
+  ]
+}

@@ -1,0 +1,7 @@
+direction,additional_stations_b,specifications,unique_selected_layouts,minimum_median_delta,maximum_median_delta,fraction_specifications_median_better,fraction_specifications_interval_below_zero,minimum_fraction_events_better
+SKS02 to SKS03,2,12,1,-0.1155975924838645,-0.11536160650313129,1.0,1.0,1.0
+SKS02 to SKS03,3,12,1,-0.05540870386968489,-0.055093968420172196,1.0,1.0,1.0
+SKS02 to SKS03,4,12,1,-0.08621256563787899,-0.08512070866880339,1.0,1.0,1.0
+SKS03 to SKS02,2,12,1,0.02303817635561556,0.02360733532245283,0.0,0.0,0.3333333333333333
+SKS03 to SKS02,3,12,1,-0.006202683876674782,-0.00535153945694275,1.0,1.0,1.0
+SKS03 to SKS02,4,12,1,-0.05406799312042458,-0.053494997570867245,1.0,1.0,1.0

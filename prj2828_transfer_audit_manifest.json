@@ -1,0 +1,22 @@
+{
+  "source_project": "DesignSafe PRJ-2828",
+  "source_dois": [
+    "10.17603/DS2-D25M-GG48",
+    "10.17603/DS2-WJGX-TB78"
+  ],
+  "files": 44,
+  "tests": [
+    "SKS02",
+    "SKS03"
+  ],
+  "events": 18,
+  "piles": 5,
+  "sampled_reference_profiles": 3600,
+  "earthquake_benchmark_profiles": 2640,
+  "earthquake_pile_event_clusters": 22,
+  "coordinate_definition": "z/L=0 at Gage 8 (top of the common measured span), z/L=1 at Gage 1 (deepest bridge)",
+  "reference_limit": "Eight common measured gage stations are treated as the reference grid; no continuous-profile truth is claimed. SKS03 Pile 1 is excluded because only six of these levels are present.",
+  "dynamic_filter": "For EQM files, centred moving means follow the source report: 6 s for Pile 1 and 3 s for Piles 2/3.",
+  "independence_rule": "Time snapshots and repeated observations of the same pile are not treated as independent replicates; paired differences are aggregated across piles within each earthquake and bootstrap resampling uses earthquake clusters.",
+  "primary_validation_rule": "Layouts are selected on one physical test and evaluated on the other. Pooled and same-test results are exploratory only."
+}

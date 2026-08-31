@@ -1,0 +1,7 @@
+source,measured_evidence,role,claim_boundary
+"SKS02, PRJ-2828","Axial load, acceleration and pore pressure; relatively uniform liquefiable deposit","Source or held-out physical test","Centrifuge measured-grid reconstruction"
+"SKS03, PRJ-2828","Axial load, acceleration and pore pressure; interbedded deposit","Source or held-out physical test","Centrifuge measured-grid reconstruction"
+"Blanchard et al. (2025), PRJ-4809 static pile database","Static axial-load profiles (data DOI: 10.17603/DS2-BEZ6-4812)","Negative-control layout only","No dynamic-response or universal inference"
+"Kevan (2017), Turrell full-scale test","Post-blast axial-load profiles for driven H, pipe and concrete piles","Primary full-scale check for H and pipe piles; concrete sensitivity","Digitised static curves; no hardware or safety inference"
+"FHWA (2017), Christchurch full-scale CFA test","Measured post-blast profiles for 12-m and 14-m CFA piles","Secondary trace-level full-scale check","Published curves only; damaged 8.5-m pile excluded"
+"Stringer (2012), Cambridge MS09","Bored-pile axial-load profile at 2,500 s after shaking","Resolution-limited centrifuge sensitivity","Five published levels; duplicate mappings omitted"

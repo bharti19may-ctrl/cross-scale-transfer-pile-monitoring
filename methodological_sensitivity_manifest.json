@@ -1,0 +1,15 @@
+{
+  "purpose": "Sampling-stability, exhaustive-layout, boundary-coverage, interpolation, mapping and practical-equivalence sensitivity audit.",
+  "independent_unit": "earthquake event after aggregation across repeated piles",
+  "source_selection_stability": "leave one complete source earthquake out before layout selection",
+  "practical_baseline": "target performance ranked against every admissible discrete layout; this deterministically subsumes a random-layout sample on the same grid",
+  "boundary_sensitivity": "source selection repeated with upper and lower measured boundaries fixed while retaining the same total station count",
+  "interpolation_sensitivity": "piecewise linear and monotone PCHIP, both with endpoint persistence outside retained support",
+  "external_mapping": "nearest published level; duplicate mappings omitted; requested and realised depths recorded",
+  "equivalence_thresholds": [
+    0.0025,
+    0.005,
+    0.01
+  ],
+  "claim_boundary": "Sensitivity analyses diagnose dependence on sampling, comparator population, boundary coverage, mapping and interpolation; they do not isolate a single physical cause or establish field performance."
+}

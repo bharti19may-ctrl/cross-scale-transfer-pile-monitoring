@@ -1,0 +1,2 @@
+test,pile,earthquake_events,reference_gages,added_stations,median_candidate_minus_uniform,minimum_candidate_minus_uniform,maximum_candidate_minus_uniform,fraction_events_candidate_better,claim_limit
+SKS03,1,5,6,2,-0.17959420456281305,-0.36639893731448564,-0.070577317218251,1.0,Error is computed only at six actually measured gage levels; missing Gage 4 and Gage 2 values are not imputed.

@@ -1,0 +1,5 @@
+claim_role,evidence_class,comparisons,candidate_lower_error,candidate_higher_error,practically_indistinguishable,median_delta_nrmse,minimum_delta_nrmse,maximum_delta_nrmse
+primary external field check,primary field trace,12,1,11,0,0.02996375339107239,-0.00798617212233265,0.11956883263834214
+secondary trace-level field check,published field-trace sensitivity,12,0,10,2,0.022239413137771058,-0.0021463128306605447,0.17314182859051636
+sensitivity only,qualified sensitivity,6,3,2,1,-0.015886342051862047,-0.04018535073731097,0.06456605394509023
+sensitivity only,resolution-limited centrifuge sensitivity,4,0,3,1,0.02034847426535412,0.0,0.030972296519404374
